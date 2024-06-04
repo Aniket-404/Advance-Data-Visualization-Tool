@@ -6,9 +6,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-# Config
-# st.set_option("deprecation.showPyplotGlobalUse", False)
-
 def main():
     st.set_page_config(page_title="Psychometric Template Generator", layout="wide")
     st.title("📊 Psychometric Template Generator")
