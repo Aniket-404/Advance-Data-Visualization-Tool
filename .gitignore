@@ -21,4 +21,4 @@ htmlcov/
 .pytest_cache
 
 #website link
-.link.txt
+.link
