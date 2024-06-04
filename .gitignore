@@ -19,3 +19,6 @@ htmlcov/
 .coverage
 .coverage.*
 .pytest_cache
+
+#website link
+.link.txt
