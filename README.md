@@ -28,7 +28,7 @@ Psychometric Template Generator is a data visualization tool built using Python,
 ## 🚀 Installation
 
 1. Clone this repository to your local machine using:
-   - `git clone`
+   - `git clone https://github.com/Aniket-404/Psychometric-Template-Generator.git`
 2. Install the required Python packages using pip:
    - `pip install -r requirements.txt`
 
