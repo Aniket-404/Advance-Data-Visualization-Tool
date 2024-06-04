@@ -29,26 +29,26 @@ def main():
                 display_chart(df, selected_features, chart_type)
 
 def display_data_preview(df):
-    """Displays a preview of the uploaded data."""
+    # Displays a preview of the uploaded data
     with st.expander("Preview of the uploaded data", expanded=False):
         st.write(df.head())
 
 def select_features(df):
-    """Allows the user to select features for comparison."""
+    # Allows the user to select features for comparison
     selected_features = st.multiselect("Select features for comparison", df.columns)
     if not selected_features:
         st.warning("Please select at least one feature for comparison.")
     return selected_features
 
 def validate_features(df, selected_features):
-    """Validates that selected features are numeric."""
+    # Validates that selected features are numeric
     if not all(df[feature].dtype in (int, float) for feature in selected_features):
         st.error("Selected features must be numeric for visualization.")
         return False
     return True
 
 def select_chart_type():
-    """Allows the user to select the type of chart."""
+    # Allows the user to select the type of chart
     with st.sidebar:
         st.header("Chart Selection")
         return st.selectbox(
@@ -57,7 +57,7 @@ def select_chart_type():
         )
 
 def display_chart(df, selected_features, chart_type):
-    """Displays the selected chart."""
+    # Displays the selected chart
     st.subheader(f"{chart_type}")
     if chart_type == "Line Chart":
         generate_line_chart(df, selected_features)
