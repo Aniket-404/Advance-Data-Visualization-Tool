@@ -1,4 +1,4 @@
-# 📊 Psychometric Template Generator
+# 📊 Advance Data Visualization Tool
 
 Psychometric Template Generator is a data visualization tool built using Python, Streamlit, Pandas, Matplotlib, and Plotly. It allows users to upload a CSV file and create intutive data visualizations just by selecting the features from the data.
 
@@ -28,7 +28,7 @@ Psychometric Template Generator is a data visualization tool built using Python,
 ## 🚀 Installation
 
 1. Clone this repository to your local machine using:
-   - `git clone https://github.com/Aniket-404/Psychometric-Template-Generator.git`
+   - `git clone https://github.com/Aniket-404/Advance-Data-Visualization-Tool.git`
 2. Install the required Python packages using pip:
    - `pip install -r requirements.txt`
 
