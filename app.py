@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 
 def main():
-    st.set_page_config(page_title="Psychometric Template Generator", layout="wide")
-    st.title("📊 Psychometric Template Generator")
+    st.set_page_config(page_title="Advance Data Visualization Tool", layout="wide")
+    st.title("📊 Advance Data Visualization Tool")
 
     # Sidebar for file upload and chart selection
     with st.sidebar:
